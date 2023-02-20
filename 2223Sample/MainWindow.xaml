@@ -10,6 +10,11 @@
         <Label x:Name="lblMessage" Content="Hello World" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="24"/>
         <TextBox x:Name="txtbSampleInput" HorizontalAlignment="Left" Margin="10,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" FontSize="24"/>
         <Button x:Name="btnClick" Content="Click me!" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" FontSize="24" Click="btnClick_Click"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="12,184,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="txtbFN" HorizontalAlignment="Left" Margin="139,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275" FontSize="24"/>
+        <TextBox x:Name="txtbLN" HorizontalAlignment="Left" Margin="139,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275" FontSize="24"/>
+        <Button x:Name="btnButton2" Content="Click me" HorizontalAlignment="Left" Margin="12,231,0,0" VerticalAlignment="Top" FontSize="24" Click="btnButton2_Click"/>
 
     </Grid>
 </Window>

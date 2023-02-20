@@ -48,5 +48,17 @@ namespace _2223Sample
             }
 
         }
+
+        private void btnButton2_Click(object sender, RoutedEventArgs e)
+        {
+            if(txtbFN.Text.Length > 0 && txtbLN.Text.Length > 0)
+            {
+                MessageBox.Show("Welcome! " + txtbLN.Text + ", " + txtbFN.Text);
+            }
+            else
+            {
+                MessageBox.Show("No.");
+            }
+        }
     }
 }
